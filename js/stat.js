@@ -12,7 +12,7 @@ var TEXT_POSITION = 125;
 var TEXT_GAP = 25;
 var BAR_Y = 80;
 var NAME_Y = 100;
-var TIME_Y =  70;
+var TIME_Y = 70;
 
 var renderCloud = function (ctx, x, y, color) {
   var offset = 10;
