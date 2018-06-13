@@ -14,9 +14,9 @@ var setupOpen = document.querySelector('.setup-open');
 var setupClose = userDialog.querySelector('.setup-close');
 var userNameInput = userDialog.querySelector('.setup-user-name');
 
-var wizardCoat = userDialog.querySelector('.wizard-coat');
+var wizardCoat = userDialog.querySelector('.setup-wizard .wizard-coat');
 var wizardCoatInput = userDialog.querySelector('input[name="coat-color"]');
-var wizardEyes = userDialog.querySelector('.wizard-eyes');
+var wizardEyes = userDialog.querySelector('.setup-wizard .wizard-eyes');
 var wizardEyesInput = userDialog.querySelector('input[name="eyes-color"]');
 var wizardFireball = userDialog.querySelector('.setup-fireball-wrap');
 var wizardFireballInput = userDialog.querySelector('input[name="fireball-color"]');
