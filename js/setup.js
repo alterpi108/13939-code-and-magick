@@ -76,6 +76,9 @@ var openPopup = function () {
 var closePopup = function () {
   userDialog.classList.add('hidden');
   document.removeEventListener('keydown', onPopupEscPress);
+
+  userDialog.style.top = '';
+  userDialog.style.left = '';
 };
 
 var onPopupEscPress = function (evt) {
