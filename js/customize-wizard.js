@@ -16,19 +16,19 @@
 
   var getCustomWizard = function () {
     wizardCoat.addEventListener('click', function () {
-      var wizardCoatColor = window.util.getRandomElement(WIZARD_COAT_COLORS);
+      var wizardCoatColor = window.utils.getRandomElement(WIZARD_COAT_COLORS);
       wizardCoat.style.fill = wizardCoatColor;
       wizardCoatInput.value = wizardCoatColor;
     });
 
     wizardEyes.addEventListener('click', function () {
-      var wizardEyesColor = window.util.getRandomElement(WIZARD_EYES_COLORS);
+      var wizardEyesColor = window.utils.getRandomElement(WIZARD_EYES_COLORS);
       wizardEyes.style.fill = wizardEyesColor;
       wizardEyesInput.value = wizardEyesColor;
     });
 
     wizardFireball.addEventListener('click', function () {
-      var wizardFireballColor = window.util.getRandomElement(WIZARD_FIREBALL_COLORS);
+      var wizardFireballColor = window.utils.getRandomElement(WIZARD_FIREBALL_COLORS);
       wizardFireball.style.background = wizardFireballColor;
       wizardFireballInput.value = wizardFireballColor;
     });
